@@ -1,6 +1,6 @@
 module Network.HTTP.Neon.Command where
 
-import Network.HTTP.Neon.Type
+import Network.HTTP.Neon.ProgType
 import Network.HTTP.Neon.Job
 
 commandLineProcess :: Hneon -> IO ()

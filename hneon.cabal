@@ -28,10 +28,37 @@ Library
                    base>4, mtl>2, directory, filepath,
                    cmdargs
   Exposed-Modules: 
-                   Network.HTTP.Neon.Type
+                   Network.HTTP.Neon.ProgType
                    Network.HTTP.Neon.Job
                    Network.HTTP.Neon.Command
+
+                   Network.HTTP.Neon.Re207 
+                   Network.HTTP.Neon.ACL
+                   Network.HTTP.Neon.ACL3744
+                   Network.HTTP.Neon.Alloc
+                   Network.HTTP.Neon.Auth
+                   Network.HTTP.Neon.Basic
+                   Network.HTTP.Neon.Compress
+                   Network.HTTP.Neon.Defs
+                   Network.HTTP.Neon.Dates
+                   Network.HTTP.Neon.I18N
+                   Network.HTTP.Neon.Locks
+                   Network.HTTP.Neon.MD5
+                   Network.HTTP.Neon.PKCS11
+                   Network.HTTP.Neon.Props
+                   Network.HTTP.Neon.Redirect
+                   Network.HTTP.Neon.Request
+                   Network.HTTP.Neon.Session
+                   Network.HTTP.Neon.Socket
+                   Network.HTTP.Neon.SSL
+                   Network.HTTP.Neon.String
+                   Network.HTTP.Neon.URI
+                   Network.HTTP.Neon.Utils
+                   Network.HTTP.Neon.XML
+                   Network.HTTP.Neon.XMLReq
   Other-Modules: 
+  include-dirs:    /Users/wavewave/opt/Cellar/neon/0.29.3/include
+  extra-lib-dirs:        /Users/wavewave/opt/Cellar/neon/0.29.3/lib
 
  
 		 
