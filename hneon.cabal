@@ -57,8 +57,62 @@ Library
                    Network.HTTP.Neon.XML
                    Network.HTTP.Neon.XMLReq
   Other-Modules: 
-  include-dirs:    /Users/wavewave/opt/Cellar/neon/0.29.3/include
-  extra-lib-dirs:        /Users/wavewave/opt/Cellar/neon/0.29.3/lib
+  include-dirs:    /Users/wavewave/opt/Cellar/neon/0.29.3/include, csrc
+  Install-includes:
+                    hne_207.h
+                    hne_basic.h
+                    hne_locks.h
+                    hne_request.h
+                    hne_uri.h
+                    hne_acl.h
+                    hne_compress.h
+                    hne_md5.h
+                    hne_session.h
+                    hne_utils.h
+                    hne_acl3744.h
+                    hne_dates.h
+                    hne_pkcs11.h
+                    hne_socket.h
+                    hne_xml.h
+                    hne_alloc.h
+                    hne_defs.h
+                    hne_props.h
+                    hne_ssl.h
+                    hne_xmlreq.h
+                    hne_auth.h
+                    hne_i18n.h
+                    hne_redirect.h
+                    hne_string.h
 
+
+  C-sources: 
+                    csrc/hne_207.c
+                    csrc/hne_basic.c
+                    csrc/hne_locks.c
+                    csrc/hne_request.c
+                    csrc/hne_uri.c
+                    csrc/hne_acl.c
+                    csrc/hne_compress.c
+                    csrc/hne_md5.c
+                    csrc/hne_session.c
+                    csrc/hne_utils.c
+                    csrc/hne_acl3744.c
+                    csrc/hne_dates.c
+                    csrc/hne_pkcs11.c
+                    csrc/hne_socket.c
+                    csrc/hne_xml.c
+                    csrc/hne_alloc.c
+                    csrc/hne_defs.c
+                    csrc/hne_props.c
+                    csrc/hne_ssl.c
+                    csrc/hne_xmlreq.c
+                    csrc/hne_auth.c
+                    csrc/hne_i18n.c
+                    csrc/hne_redirect.c
+                    csrc/hne_string.c
+
+
+  extra-lib-dirs:  /Users/wavewave/opt/Cellar/neon/0.29.3/lib
+  extra-libraries: neon
  
 		 
