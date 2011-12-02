@@ -7,3 +7,4 @@ module Network.HTTP.Neon.Defs.Internal where
 
 #include "neon/ne_defs.h"
 
+#integral_t ne_off_t
